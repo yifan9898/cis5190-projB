@@ -1,0 +1,17 @@
+# 环境
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 数据：全部不上传（可用 scraping/ 下的脚本重新生成），只保留说明文件
+data/*
+!data/README.md
+
+# 模型权重与训练产物（可用训练脚本重新生成）
+runs/
+*.pt
+*.pth
+
+# 临时文件
+*.tmp

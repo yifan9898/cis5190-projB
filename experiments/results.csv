@@ -1,0 +1,6 @@
+time,name,clf,C,train_files,extra_files,official_weight,section_reweight,n_train,train_acc,val_acc,val_se
+2026-11-23T12:57:21,tfidf_lr_official,lr,10.0,data/train_split.csv,,1.0,False,3840,1.0,0.825,0.0123
+2026-11-23T12:57:49,tfidf_lr_scraped,lr,10.0,data/combined_train.csv,,1.0,False,82644,0.9899,0.8302,0.0121
+2026-11-23T13:11:16,tfidf_lr_rw20_video,lr,10.0,data/train_split.csv,data/scraped_clean.csv,20.0,True,135090,0.903,0.8812,0.0104
+2026-11-23T13:36:00,tfidf_meta_lr,lr,3.0,data/train_split.csv,data/scraped_clean.csv,5.0,True,135090,0.9509,0.8854,0.0103
+2026-11-23T15:41:45,tfidf_meta_lr_livenews,lr,3.0,data/train_split.csv,data/scraped_clean.csv,5.0,True,136125,0.9483,0.8875,0.0102
